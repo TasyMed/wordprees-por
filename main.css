@@ -1,0 +1,93 @@
+body {
+            background-color: #000000;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .projects-section {
+            padding: 60px 0;
+            background-color: #000000;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        
+        .project-card {
+            background: #1a1a1a;
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(255, 255, 255, 0.15);
+        }
+        
+        .project-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+        
+        .project-description {
+            color: #cccccc;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .tech-tag {
+            background: #333333;
+            color: #ffffff;
+            border: 1px solid #555555;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .youtube-embed {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+        }
+        
+        .btn-custom {
+            background: #333333;
+            border: 1px solid #555555;
+            color: #ffffff;
+            padding: 10px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-custom:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+            background: #444444;
+            color: #ffffff;
+        }
+
+        header {
+            color: white;
+        }
+        header h1{
+            font-size: 80px;
+        }
+        header p{
+            font-size: 20px;
+        }
